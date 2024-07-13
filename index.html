@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <title>AI Cocktail Generator</title>
   </head>
   <body>
@@ -12,7 +14,7 @@
         <h1>AI Cocktail Generator 🍸</h1>
       </header>
       <main>
-        <form action="">
+        <form id="cocktail-generator-form">
           <input
             type="text"
             placeholder="Enter the liquor you have on hand..."
@@ -23,7 +25,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="cocktail-recipe">
+        <div class="cocktail-recipe" id="cocktail">
           Vodka
           <br />
           Dry Vermouth
