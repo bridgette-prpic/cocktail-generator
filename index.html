@@ -14,19 +14,25 @@
         <h1>AI Cocktail Generator 🍸</h1>
       </header>
       <main>
-        <form id="cocktail-generator-form">
-          <input
-            type="text"
-            placeholder="One liquor you have on hand..."
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt"
-            id="user-prompt"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="cocktail-recipe" id="cocktail"></div>
+        <div class="form-container">
+          <form id="cocktail-generator-form">
+            <input
+              type="text"
+              placeholder="One liquor you have on hand..."
+              autofocus
+              required
+              autocomplete="off"
+              class="prompt"
+              id="user-prompt"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">
+            i.e.: Vodka, Rum, Tequila, Triple Sec, Aperol...</div>
+          </div>
+        </div>
+
+        <div class="cocktail-recipe hidden"  id="cocktail"></div>
       </main>
       <footer>
         This AI project was coded by
