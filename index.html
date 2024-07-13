@@ -7,46 +7,49 @@
     <title>AI Cocktail Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Cocktail Generator 🍸</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the liquor you have on hand"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Cocktail recipe will go here
-        <br />
-        Vodka
-        <br />
-        Dry Vermouth
-        <br />
-        Olive Brine
-        <br />
-        Blue Cheese Olives
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/bridgette-prpic" target="_blank">B. Prpic</a>
-      and it open-sourced on
-      <a
-        href="https://github.com/bridgette-prpic/cocktail-generator"
-        target="_blank"
-      >
-        Github </a
-      >and hosted on
-      <a href="https://ai-cocktail-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Cocktail Generator 🍸</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the liquor you have on hand..."
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="cocktail-recipe">
+          Vodka
+          <br />
+          Dry Vermouth
+          <br />
+          Olive Brine
+          <br />
+          Blue Cheese Olives
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/bridgette-prpic" target="_blank"
+          >B. Prpic</a
+        >
+        and it open-sourced on
+        <a
+          href="https://github.com/bridgette-prpic/cocktail-generator"
+          target="_blank"
+        >
+          Github </a
+        >and hosted on
+        <a href="https://ai-cocktail-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
